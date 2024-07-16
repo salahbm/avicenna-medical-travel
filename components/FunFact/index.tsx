@@ -12,7 +12,7 @@ const FunFact = () => {
           <Image
             width={335}
             height={384}
-            src="/images/shape/shape-04.png"
+            src="/images/shape/funfact.svg"
             alt="Man"
             className="absolute -left-15 -top-25 -z-1 lg:left-0"
           />
