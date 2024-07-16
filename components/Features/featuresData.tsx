@@ -29,20 +29,20 @@ const featuresData: Feature[] = [
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis tortor.",
   },
-  {
-    id: 5,
-    icon: "/images/icon/icon-05.svg",
-    title: "DB, Auth and Stripe",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis tortor.",
-  },
-  {
-    id: 6,
-    icon: "/images/icon/icon-06.svg",
-    title: "Regular Free Updates",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis tortor.",
-  },
+  // {
+  //   id: 5,
+  //   icon: "/images/icon/icon-05.svg",
+  //   title: "DB, Auth and Stripe",
+  //   description:
+  //     "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis tortor.",
+  // },
+  // {
+  //   id: 6,
+  //   icon: "/images/icon/icon-06.svg",
+  //   title: "Regular Free Updates",
+  //   description:
+  //     "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis tortor.",
+  // },
 ];
 
 export default featuresData;
