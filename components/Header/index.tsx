@@ -6,6 +6,7 @@ import { useEffect, useState } from "react";
 
 import ThemeToggler from "./ThemeToggler";
 import menuData from "./menuData";
+import LanguageSelector from "../shared/lang-selector";
 
 const Header = () => {
   const [navigationOpen, setNavigationOpen] = useState(false);
@@ -144,8 +145,9 @@ const Header = () => {
             </ul>
           </nav>
 
-          <div className="mb-2 mt-7 flex  items-start gap-6 xl:mt-0">
+          <div className="mb-2 mt-7 flex  items-center justify-start gap-6 xl:mt-0">
             <ThemeToggler />
+            <LanguageSelector />
           </div>
         </div>
       </div>

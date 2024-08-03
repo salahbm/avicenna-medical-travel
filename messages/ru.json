@@ -1,1 +1,9 @@
-{}
+{
+  "Header": {
+    "languages": {
+      "en": "English",
+      "uz": "Uzbek",
+      "ru": "Russian"
+    }
+  }
+}
