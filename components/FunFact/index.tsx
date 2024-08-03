@@ -14,7 +14,7 @@ const FunFact = () => {
             height={384}
             src="/images/shape/funfact.svg"
             alt="Man"
-            className="absolute -left-15 -top-25 -z-1 lg:left-0"
+            className="absolute -left-30 -top-30 -z-1 h-1/2 md:-left-15 md:-top-25 md:h-full lg:left-0"
           />
           <Image
             width={132}
