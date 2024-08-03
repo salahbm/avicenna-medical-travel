@@ -1,4 +1,4 @@
-import { Metadata } from "next";
+"use client";
 import Hero from "@/components/Hero";
 import Feature from "@/components/Features";
 import About from "@/components/About";
@@ -7,12 +7,6 @@ import FunFact from "@/components/FunFact";
 import FAQ from "@/components/FAQ";
 import Contact from "@/components/Contact";
 import Testimonial from "@/components/Testimonial";
-
-export const metadata: Metadata = {
-  title: "Avicenna Medical Travel",
-  description: "Get started with Avicenna",
-  // other metadata
-};
 
 export default function Home() {
   return (
