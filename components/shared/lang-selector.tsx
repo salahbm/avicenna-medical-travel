@@ -27,7 +27,7 @@ const LanguageSelector = () => {
     <div className="relative inline-block">
       <button onClick={handleSelectClick} className="flex w-8 items-center">
         {isOpen ? (
-          <p className="ml-3 text-2xl text-red-500">X</p>
+          <p className="ml-3 text-2xl text-red-500">x</p>
         ) : (
           <>
             <span className="mr-1">{flags[currentLocale]}</span>
