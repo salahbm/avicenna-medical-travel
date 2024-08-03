@@ -13,7 +13,7 @@ const ErrorPage = () => {
   return (
     <html>
       <body>
-        <main className="grid min-h-screen place-items-center ">
+        <main className="flex min-h-screen flex-col items-center justify-center">
           <Image
             src="/images/shape/404.svg"
             alt="404"
@@ -25,7 +25,7 @@ const ErrorPage = () => {
 
           <Link
             href="/"
-            className=" group relative inline-block text-sm font-medium text-blue-500 focus:outline-none focus:ring active:text-orange-500"
+            className="group relative mt-8 inline-block text-sm font-medium text-blue-500 focus:outline-none focus:ring active:text-orange-500"
           >
             <span className="absolute inset-0 translate-x-0.5 translate-y-0.5 bg-blue-500 transition-transform group-hover:translate-x-0 group-hover:translate-y-0"></span>
 
