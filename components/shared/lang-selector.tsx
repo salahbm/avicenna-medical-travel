@@ -36,7 +36,7 @@ const LanguageSelector = () => {
         )}
       </button>
       {isOpen && (
-        <div className="absolute -right-8 z-999 mt-2 w-48 transform rounded border border-gray-300 bg-white shadow-lg  transition duration-500 dark:bg-black">
+        <div className="absolute -right-8 mt-2 w-48 transform rounded border border-gray-300 bg-white shadow-lg  transition duration-500 dark:bg-black">
           {locales.map((locale) => {
             const isActive = locale === currentLocale;
 

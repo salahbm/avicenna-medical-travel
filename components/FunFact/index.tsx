@@ -26,13 +26,13 @@ const FunFact = () => {
 
           <Image
             fill
-            src="/images/shape/shape-dotted-light-02.svg"
+            src="../images/shape/shape-dotted-light-02.svg"
             alt="Dotted"
             className="absolute left-0 top-0 -z-1 dark:hidden"
           />
           <Image
             fill
-            src="/images/shape/shape-dotted-dark-02.svg"
+            src="../images/shape/shape-dotted-dark-02.svg"
             alt="Dotted"
             className="absolute left-0 top-0 -z-1 hidden dark:block"
           />

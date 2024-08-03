@@ -145,9 +145,11 @@ const Header = () => {
             </ul>
           </nav>
 
-          <div className="mb-2 mt-7 flex  items-center justify-start gap-6 xl:mt-0">
+          <div className="mb-2 mt-7 flex  items-center justify-start gap-3 xl:mt-0">
             <ThemeToggler />
-            <LanguageSelector />
+            <div className="hidden md:block">
+              <LanguageSelector />
+            </div>
           </div>
         </div>
       </div>

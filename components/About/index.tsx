@@ -2,6 +2,10 @@
 
 import { motion } from "framer-motion";
 import Image from "next/image";
+import aboutLight1 from "../../public/images/about/about-light-01.png";
+import aboutDark1 from "../../public/images/about/about-dark-01.png";
+import aboutLight2 from "../../public/images/about/about-light-02.svg";
+import aboutDark2 from "../../public/images/about/about-dark-02.svg";
 
 const About = () => {
   return (
@@ -29,13 +33,13 @@ const About = () => {
               className="animate_left relative mx-auto hidden aspect-[588/526.5] md:block md:w-1/2"
             >
               <Image
-                src="/images/about/about-light-01.png"
+                src={aboutLight1}
                 alt="About"
                 className="dark:hidden"
                 fill
               />
               <Image
-                src="/images/about/about-dark-01.png"
+                src={aboutDark1}
                 alt="About"
                 className="hidden dark:block"
                 fill
@@ -181,13 +185,13 @@ const About = () => {
               className="animate_right relative mx-auto hidden aspect-[588/526.5] md:block md:w-1/2"
             >
               <Image
-                src="../images/about/about-light-02.svg"
+                src={aboutLight2}
                 alt="About"
                 className="dark:hidden"
                 fill
               />
               <Image
-                src="../images/about/about-dark-02.svg"
+                src={aboutDark2}
                 alt="About"
                 className="hidden dark:block"
                 fill
