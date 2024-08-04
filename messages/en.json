@@ -5,5 +5,13 @@
       "uz": "Uzbek",
       "ru": "Russian"
     }
+  },
+  "Meta": {
+    "keywords": "Avicenna Medical Travel find your cure with us",
+    "description": "We help  you to regain your happiness.",
+    "home": {
+      "title": "{brand} | Thrives to be your best health associate",
+      "description": "{brand} | We help  people to enjoy life."
+    }
   }
 }
