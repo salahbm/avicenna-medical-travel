@@ -6,7 +6,7 @@ import { useEffect, useState } from "react";
 
 import ThemeToggler from "./ThemeToggler";
 import menuData from "./menuData";
-import LanguageSelector from "../shared/lang-selector";
+import LanguageSelector from "./lang-selector";
 
 const Header = () => {
   const [navigationOpen, setNavigationOpen] = useState(false);

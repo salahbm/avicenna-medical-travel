@@ -2,6 +2,7 @@ import { defaultLocale, locales } from "@/i18n.config";
 import { useLocale } from "next-intl";
 import { usePathname, useRouter } from "next/navigation";
 import { useCallback } from "react";
+import Cookies from "js-cookie";
 
 const useTranslation = () => {
   const router = useRouter();
@@ -12,8 +13,8 @@ const useTranslation = () => {
     (newLocale: string) => {
       if (newLocale === currentLocale) return;
 
-      // Save to localStorage
-      localStorage.setItem("NEXT_LOCALE", newLocale);
+      // Save to Cookies
+      Cookies.set("NEXT_LOCALE", newLocale);
 
       let newPath;
       if (

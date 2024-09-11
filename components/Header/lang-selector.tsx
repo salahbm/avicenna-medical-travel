@@ -1,6 +1,6 @@
 "use client";
 import React, { useState } from "react";
-import { useTranslations } from "next-intl";
+import { useTranslations, useLocale } from "next-intl";
 import useTranslation from "@/hooks/useTranslation";
 
 const LanguageSelector = () => {

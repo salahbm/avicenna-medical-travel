@@ -4,6 +4,12 @@
       "en": "English",
       "uz": "Uzbek",
       "ru": "Russian"
+    },
+    "nav": {
+      "home": "Home",
+      "contact": "Contact",
+      "results": "Results",
+      "about": "About"
     }
   },
   "Meta": {
@@ -13,5 +19,125 @@
       "title": "{brand} | Thrives to be your best health associate",
       "description": "{brand} | We help  people to enjoy life."
     }
+  },
+  "Hero": {
+    "title": "Find the cure with us ",
+    "description": ""
+  },
+  "Feature": {
+    "title": "",
+    "subtitle": "",
+    "description": "",
+    "features": {
+      "0": {
+        "title": "",
+        "description": ""
+      },
+      "1": {
+        "title": "",
+        "description": ""
+      },
+      "2": {
+        "title": "",
+        "description": ""
+      },
+      "3": {
+        "title": "",
+        "description": ""
+      }
+    }
+  },
+  "About": {
+    "title": "",
+    "subtitle": "",
+    "description": "",
+    "feat": {
+      "0": {
+        "title": "",
+        "subtitle": ""
+      },
+      "1": {
+        "title": "",
+        "subtitle": ""
+      }
+    },
+    "title2": "",
+    "subtitle2": "",
+    "description2": ""
+  },
+  "TabFeatures": {
+    "tab1": {
+      "title": "",
+      "description": ""
+    },
+    "tab2": {
+      "title": "",
+      "description": ""
+    },
+    "tab3": {
+      "title": "",
+      "description": ""
+    }
+  },
+  "FunFact": {
+    "title": "",
+    "description": "",
+    "num1": "",
+    "num2": "",
+    "num3": ""
+  },
+  "FAQ": {
+    "header": "",
+    "first": {
+      "title": "",
+      "description": ""
+    },
+    "second": {
+      "title": "",
+      "description": ""
+    },
+    "third": {
+      "title": "",
+      "description": ""
+    }
+  },
+  "Testimonial": {
+    "title": "",
+    "subtitle": "",
+    "description": "",
+    "first": {
+      "name": "",
+      "opinion": ""
+    },
+    "second": {
+      "name": "",
+      "opinion": ""
+    },
+    "third": {
+      "name": "",
+      "opinion": ""
+    },
+    "fourth": {
+      "name": "",
+      "opinion": ""
+    },
+    "fifth": {
+      "name": "",
+      "opinion": ""
+    },
+    "sixth": {
+      "name": "",
+      "opinion": ""
+    }
+  },
+  "Contacts": {
+    "title": "",
+    "location": "",
+    "email": "",
+    "number": ""
+  },
+  "Footer": {
+    "quickLinks": "",
+    "support": ""
   }
 }
